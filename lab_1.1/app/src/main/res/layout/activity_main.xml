@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="ab0202">
+
+
+
+    <TextView
+        android:layout_width="411dp"
+        android:layout_height="wrap_content"
+        android:layout_constraintRight_toRightOf="parent"
+        android:layout_constraintTop_toTopOf="parent"
+        android:text="Hello!"
+        android:textColor="#ab0202"
+        android:textSize="28sp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="My first program in Android Studio!"
+        android:textColor="#13e004"
+        android:textSize="20sp"/>
+
+
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:src="@drawable/androidparty"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:scaleType="centerCrop"
+        android:paddingLeft="16dp"/>
+
+    <Button
+        android:text="Next program"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="8dp"/>
+
+
+</LinearLayout>
